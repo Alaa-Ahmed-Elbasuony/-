@@ -141,6 +141,7 @@
   }
   .columns {
     width: 80%;
+    margin: 2rem 0;
   }
   .grid-footer {
     padding-left: 0;
@@ -367,5 +368,15 @@
 
   .footer-download-btn {
     margin: 1rem 0.5rem;
+  }
+  .columns {
+    margin: 1rem 0;
+  }
+}
+
+@media (max-width: 30em) {
+  .forth-section {
+    padding: 0;
+    margin: 0 auto;
   }
 }
