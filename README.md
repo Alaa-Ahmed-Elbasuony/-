@@ -1,6 +1,6 @@
 # -First project with (البنيان المرصوص)
 
-## Demo:-https://ubiquitous-lolly-661439.netlify.app/
+## Demo:- https://grand-genie-2a70ca.netlify.app/
 
 ### I'll update this README after adding any project
 
