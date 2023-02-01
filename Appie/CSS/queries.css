@@ -21,9 +21,6 @@
     font-size: 2rem;
     margin-left: 1rem;
   }
-  .outer-box {
-    gap: 1rem;
-  }
   .box {
     padding: 1.5rem;
   }
@@ -64,6 +61,13 @@
     width: 50rem;
     margin: 0 auto;
   }
+  .inner-section {
+    padding-bottom: 0;
+    margin: 5rem auto;
+  }
+  .forth-section {
+    margin-top: 5rem;
+  }
   .cp-text {
     margin-top: 3rem;
     margin-left: 3rem;
@@ -76,6 +80,8 @@
   .grid-footer {
     margin-left: 1rem;
     grid-template-columns: 1fr 2fr;
+    justify-items: center;
+    padding-left: 5rem;
   }
   .inner-section-img {
     display: none;
@@ -107,9 +113,6 @@
   .left-right-btns {
     display: none;
   }
-  .view-btn {
-    margin-top: 1rem;
-  }
   .right-container {
     display: flex;
     width: 50em;
@@ -139,12 +142,25 @@
   .columns {
     width: 80%;
   }
+  .grid-footer {
+    padding-left: 0;
+  }
   .sponsers-icons {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     margin: 0 auto;
     margin-left: 3rem;
   }
+  h2 {
+    text-align: center;
+  }
+  .container-inner {
+    margin: 0 auto;
+  }
+  .inner-section {
+    text-align: center;
+  }
+
   .right-container,
   .third-section,
   .fifth-section,
@@ -248,13 +264,20 @@
     padding: 1rem;
     width: auto;
     margin: 0;
+    width: auto;
   }
-  .inner-section-heading,
+  .forth-section {
+    padding-left: 3rem;
+  }
   .vid-description h3 {
     font-size: 20px;
   }
   .vid-description {
     padding: 0;
+    text-align: center;
+  }
+  .popular {
+    right: 7px;
   }
   .view-btn {
     font-size: 14px;
@@ -309,6 +332,10 @@
   }
   .cp-text {
     margin: 0;
+    grid-column: 1/-1;
+  }
+  .last-child {
+    grid-column: 2;
   }
 }
 @media (max-width: 33.5em) {
@@ -324,5 +351,21 @@
   }
   .rand-commnents {
     flex-direction: column;
+  }
+  .inner-section-container {
+    width: 27rem;
+  }
+  .forth-section {
+    padding-left: 1rem;
+  }
+  .container-inner {
+    padding: 0 1rem;
+  }
+  .footer-download-btns {
+    margin: 0 2rem;
+  }
+
+  .footer-download-btn {
+    margin: 1rem 0.5rem;
   }
 }
