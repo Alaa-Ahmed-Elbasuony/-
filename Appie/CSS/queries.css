@@ -399,7 +399,7 @@
     margin-left: 0.5rem;
     gap: 0.5rem;
   }
-  .second-section {
-    padding: 1rem;
+  .columns:first-child {
+    margin-top: 10rem;
   }
 }
