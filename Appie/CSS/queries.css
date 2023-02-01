@@ -402,4 +402,7 @@
   .columns:first-child {
     margin-top: 10rem;
   }
+  h2 {
+    margin-left: 0;
+  }
 }
