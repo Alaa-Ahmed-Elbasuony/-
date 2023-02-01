@@ -47,6 +47,9 @@
   .left-right-btns {
     margin: 0 8rem;
   }
+  .inner-section-img {
+    width: 15rem;
+  }
 }
 @media (max-width: 64em) {
   .outer-box {
@@ -215,6 +218,7 @@
     align-items: center;
     justify-content: center;
     text-align: center;
+    margin: 0 auto;
   }
   .flex-between {
     flex-direction: column;
