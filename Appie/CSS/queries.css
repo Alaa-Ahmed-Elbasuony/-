@@ -372,11 +372,24 @@
   .columns {
     margin: 1rem 0;
   }
+  .sponsers-icons {
+    margin-left: 1rem;
+  }
 }
 
 @media (max-width: 30em) {
   .forth-section {
     padding: 0;
     margin: 0 auto;
+  }
+  .inner-section-container {
+    width: auto;
+  }
+  .inner-section-heading {
+    width: auto;
+  }
+  .sponsers-icons {
+    margin-left: 0.5rem;
+    gap: 0.5rem;
   }
 }
