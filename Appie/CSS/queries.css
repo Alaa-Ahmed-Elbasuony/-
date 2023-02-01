@@ -372,6 +372,9 @@
   .columns {
     margin: 1rem 0;
   }
+  .columns:first-child {
+    margin-top: 3rem;
+  }
   .sponsers-icons {
     margin-left: 1rem;
   }
