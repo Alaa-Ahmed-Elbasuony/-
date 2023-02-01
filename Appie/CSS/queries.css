@@ -375,6 +375,10 @@
   .sponsers-icons {
     margin-left: 1rem;
   }
+  .vid-container {
+    width: 95%;
+    margin: 0 auto;
+  }
 }
 
 @media (max-width: 30em) {
@@ -391,5 +395,8 @@
   .sponsers-icons {
     margin-left: 0.5rem;
     gap: 0.5rem;
+  }
+  .second-section {
+    padding: 1rem;
   }
 }
