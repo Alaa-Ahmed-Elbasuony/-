@@ -555,9 +555,10 @@ button:hover {
 .rand-commnents {
   display: flex;
   align-items: flex-start;
+  flex-direction: row;
   justify-content: center;
   gap: 5rem;
-  background-image: url(Project\ Images/Light-Blue-Background.jpg);
+  background-image: url(../Project\ Images/Light-Blue-Background.jpg);
   background-size: cover;
   color: #e4e4e4;
   margin-bottom: 3rem;
@@ -567,6 +568,7 @@ button:hover {
   display: flex;
   flex-direction: column;
   align-items: center;
+  width: 10rem;
 }
 .comment-block {
   width: 40rem;
@@ -595,7 +597,7 @@ button:hover {
   width: 3rem;
   height: 3rem;
   border-radius: 50%;
-  margin: -3rem 0;
+  margin: 2rem 0;
 }
 .sponsers {
   margin-top: 5rem;

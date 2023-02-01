@@ -318,4 +318,7 @@
   .thumb-2-img {
     width: 28rem;
   }
+  .rand-commnents {
+    flex-direction: column;
+  }
 }
