@@ -231,7 +231,7 @@
   .box {
     display: flex;
     flex-direction: column;
-    width: 25rem;
+    width: 90%;
     align-items: center;
     justify-content: center;
     text-align: center;
@@ -247,7 +247,7 @@
     text-align: initial;
   }
   .inner-section {
-    width: 28rem;
+    width: 90%;
     display: block;
   }
   .second-section-header-h2 {
