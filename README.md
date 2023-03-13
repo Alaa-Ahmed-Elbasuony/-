@@ -4,7 +4,7 @@
 
 ### I'll update this README after adding any project
 
-# -ٍecond project with (البنيان المرصوص)
+# -Second project with (البنيان المرصوص)
 
 ## Demo:- 
 
