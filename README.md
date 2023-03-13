@@ -2,8 +2,6 @@
 
 ## Demo:- https://grand-genie-2a70ca.netlify.app/
 
-### I'll update this README after adding any project
-
 # -Second project with (البنيان المرصوص)
 
 ## Demo:- 
