@@ -1,0 +1,15 @@
+@media (max-width: 50em) {
+  main {
+    display: block;
+    max-height: 100vh;
+  }
+  button {
+    margin-bottom: 2rem;
+  }
+  .kanban-col {
+    margin-top: 0;
+  }
+  .clear {
+    bottom: -1rem;
+  }
+}

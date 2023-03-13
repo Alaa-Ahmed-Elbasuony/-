@@ -1,0 +1,123 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-family: "Roboto", sans-serif;
+  font-size: 10px;
+}
+body {
+  background-color: #f7f7f7;
+}
+h1,
+h2 {
+  text-align: center;
+}
+h1 {
+  font-size: 3rem;
+  margin: 4rem 3rem;
+}
+main {
+  margin: 0 4rem;
+  padding: 2rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  background-color: #009578;
+  max-height: 75vh;
+  overflow-y: auto;
+}
+h2 {
+  font-size: 2.5rem;
+  color: #fff;
+  margin-bottom: 2rem;
+}
+input {
+  padding: 0 1rem;
+  font-size: 1.8rem;
+  width: 100%;
+}
+input,
+button {
+  height: 5rem;
+  border: none;
+  border-radius: 1rem;
+  box-shadow: 1px 1px 1px #fff;
+}
+.kanban-col {
+  display: flex;
+  flex-direction: column;
+  margin-right: 2rem;
+  margin-top: 5rem;
+  gap: 2rem;
+  padding-top: 2rem;
+}
+button {
+  width: -webkit-fill-available;
+  font-size: 2rem;
+  cursor: pointer;
+  background-color: #00866d;
+  color: #fff;
+  margin-right: 2rem;
+  margin-top: 2rem;
+}
+button:hover {
+  background-color: #009578;
+  border: 2px solid #ffffff86;
+}
+.container {
+  display: flex;
+  position: relative;
+}
+.container:hover .clear,
+.container:hover .edit {
+  display: inline-block;
+}
+.clear,
+.edit {
+  position: absolute;
+  width: 3rem;
+  height: 3rem;
+  background-color: transparent;
+  display: none;
+}
+.clear {
+  color: #dc0000;
+}
+.edit {
+  color: #0000dc;
+}
+.clear:hover,
+.edit:hover {
+  color: #fff;
+}
+.clear {
+  bottom: 1rem;
+  right: -1rem;
+}
+.edit {
+  top: -1rem;
+  right: 2rem;
+}
+.is-dragging {
+  scale: 1.05;
+  background-color: #00000030;
+  color: #fff;
+}
+a {
+  text-decoration: none;
+  display: inline-block;
+  margin: 3rem auto;
+  padding: 2rem 5rem;
+  background-color: #00953e1c;
+  border-radius: 1rem;
+  font-size: 2rem;
+  color: #dc0000;
+}
+a:hover {
+  color: #fff;
+  background-color: #dc0000;
+}
+.reset {
+  text-align: center;
+}
