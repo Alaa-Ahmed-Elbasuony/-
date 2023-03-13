@@ -1,4 +1,4 @@
-# -App that involves HtML+CSS+Js
+# -App that involves HtML+CSS+JS
 
 ## Demo:- 
 
