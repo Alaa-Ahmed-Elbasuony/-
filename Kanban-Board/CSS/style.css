@@ -37,6 +37,9 @@ input {
   font-size: 1.8rem;
   width: 100%;
 }
+input:focus {
+  outline: 0;
+}
 input,
 button {
   height: 5rem;
